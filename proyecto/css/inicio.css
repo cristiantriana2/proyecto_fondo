@@ -1,0 +1,107 @@
+/*aquí se modifican los estilo de todo el cuerpo*/
+body {
+    font-family: georgia;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+/*esto modifica el tamaño y el diseño interactivo de la barra de navegación*/
+.contenedor{
+
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/*es separa un poco el contenido de la barra de navegación de la parte superior del contenido para que no se vea superpuesta la barra de navegación sobre el contenido*/
+.main{
+    padding-top: 10rem;
+}
+/*esto modifica el div de la barra negra que es la cabecera*/
+.cabecera{
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    right: 0;
+}
+/*esto modifica los links hacia otras paginas o sub-apartados que estan en la cabecera, como galeria, inicio y acceder*/
+.cabecera a{
+    text-decoration: none;
+    color: white;
+}
+/*esto modifica la imagen que tenemos como logo de fondo emprender*/
+.logo{
+    letter-spacing: 5px;
+    font-size: 1.2em;
+    margin-top: 3px;
+}
+/*esto centra el texto dentro del div de la cabecera de la navegación*/
+.navegacion{
+    text-align: center;
+}
+
+/*esto le quita el estilo de tipo lista clasica que hay por defecto*/
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*esto quita el estilo clasico d elos links de acceder, galeria e inicio*/
+.navegacion a{
+    text-decoration: none;
+}
+/*esto modifica la posicion de la lista y le da la orientación horizontal en vez de vertical*/
+.navegacion ul li{
+    list-style: none;
+    display: inline-block;
+}
+/*esto le da un estilo cuando vamos a dar clic sobre lo diferentes apartados (inicio, galeria y acceder)*/
+.navegacion ul li a{
+    display: block;
+    padding: 0.5rem 1rem ;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+/*cambia el color de la caja cuando pasamos el ratón sobre inicio, galeria y acceder*/
+.navegacion ul li a:hover{
+    background-color: #4a4a4a;
+}
+ /* Aqui se modificara el margen del div del apartado insertar */
+
+.contenedor_insertar{
+    margin-left: 46%;
+    width: 300px;
+    height: 400px;
+    
+}
+
+/**/
+
+.boton_insertar{
+    color: #4f4b4b;
+    background-color: #c5caca;
+    border: 0.5px solid #8f9494 ;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+}
+
+/**/
+
+.boton_insertar:hover{
+    border: 1px solid #333 ;
+    border-radius: 10px;
+    color: #2d2626;
+    background-color: #9cabab;
+    border-radius: 20px;
+}

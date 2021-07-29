@@ -1,0 +1,76 @@
+
+/*aquí se modifican los estilo de todo el cuerpo*/
+body{
+    font-family: tahoma;
+    background:radial-gradient(#BCF5F4, #5ED6D2, #3A9996);
+    /*background-repeat: no-repeat;*/
+}
+
+/*aquí se modifica el estilo del div que contiene dentro el login*/
+.login{
+
+  max-height: 800px;
+  max-height: 380px;
+  background-color: white;
+  border-radius: 30px;
+  text-align:center;
+  margin-top: 8%;
+  margin-left: 40%;
+  border: 0,5px solid #C4D4D3;
+  width: 20%;
+  height: 40%;
+  
+}
+
+/*aquí se modifica el logo de fondo emprender*/
+.img_logo{
+    
+    margin-top: 0 auto;
+    width: 200px;
+    height: 80px;
+}
+
+/*Esto hace que cambié el estilo de los inputs para que se miren más atractivos*/
+
+.input_1{
+
+    margin-left: 3px;
+    width: 60%;
+    height: 10%;
+    border: 1px solid #C1C7C0;
+    background: white;
+    border-radius: 5px;
+}
+
+/*Este codigo cambia el color, el tamaño, los bordes y el estilo del botón del login*/
+
+.boton_login{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #4FD653 ;
+    border-radius: 6px;
+    border: 1px solid #8EDE86
+    ;
+  }
+
+/*Esto hace una mini-animación para que se oscurezca el botón como si fuese una animación*/ 
+
+  .boton_login:hover{
+    color: white;
+    background-color: #4DCA50;
+  }
+
+
+/*Esto cambia el color y el estilo del link para recuperar la cuenta*/
+
+
+/*.link{
+    text-decoration: none;
+    color: #3483EE;
+}*/
+
+
+  

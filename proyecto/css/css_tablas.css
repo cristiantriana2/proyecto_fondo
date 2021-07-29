@@ -1,0 +1,35 @@
+#container h1{
+    font-size: 35px;
+    display: inline-block;
+    margin-left: 34%;
+}
+.btn_inser{
+    display: inline-block;
+    background: #BFD0E3;
+    color: rgb(0, 0, 0);
+    padding: 5px 25px;
+    border-radius: 4px;
+    margin: 20px;
+}
+table{
+    border-collapse: collapse;
+    font-size: 12pt;
+    font-family: 'arial';
+    width: 85%;
+    margin-left: 8%;
+}
+table th{
+    text-align: center;
+    padding: 10px;
+    background: rgb(124, 138, 135);
+    color: white;
+}
+table tr{
+    text-align: center;
+}
+table tr:nth-child(odd){
+    background: #bfc5dd;
+}
+.link_adit{
+    color: aquamarine;
+}
